@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E1F0A8;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*HOME*/
+
+.titulo {
+
+    font-size: 3rem;
+    color: #7EA34A;
+    text-align: center;
+    border-bottom: solid 1px #7EA34A;
+
+}
+
+.nav {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.header {
+
+    background: rgb(225, 240, 168);
+    background: linear-gradient(0deg, rgba(225, 240, 168, 1) 0%, rgba(86, 112, 50, 1) 100%);
+}
+
+.menu {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 70vw;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #567032;
+}
+
+.logo {
+    width: 200px;
+    display: flex;
+}
+
+.abajo {
+    text-decoration: none;
+    color: #567032;
+    margin: 30px;
+}
+
+section {
+
+    margin-top: 30px;
+    display: flex;
+    line-height: 1.6;
+    justify-content: center;
+}
+
+article {
+    margin: 20px;
+}
+
+.cambiar_img1 {
+    background-image: url(./img/img1exterior.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+.cambiar_img1:hover {
+    background-image: url(./img/img1interior.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+.cambiar_img2 {
+    background-image: url(./img/img2exterior.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+.cambiar_img2:hover {
+    background-image: url(./img/img2interior.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+.cambiar_img3 {
+    background-image: url(./img/img3exterior.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+.cambiar_img3:hover {
+    background-image: url(./img/img3interior.jpg);
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+article p {
+    width: 300px;
+    color: #7EA34A;
+    padding: 1.5rem;
+
+}
+
+.aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside_texto {
+    font-size: 25px;
+    color: #5A734E;
+    margin-bottom: 40px;
+}
+
+.aside_link {
+    color: #5A734E;
+    text-decoration: none;
+    padding: 0;
+}
+.imgpng{
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.footer {
+    background: rgb(86, 112, 50);
+    background: linear-gradient(0deg, rgba(86, 112, 50, 1) 0%, rgba(225, 240, 168, 1) 100%);
+}
+
+.menu_2 {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 30px;
+    margin-bottom: 40px;
+    margin: 10px;
+    grid-area: menu;
+    border: solid 1px #567032;
+}
+
+.menu_link2 {
+    text-decoration: none;
+    color: #567032;
+    font-size: 20px;
+    grid-area: menu;
+
+}
+
+.arriba {
+    text-decoration: none;
+    color: #567032;
+    margin: 20px;
+    grid-area: arriba;
+}
+
+.logo2 {
+    margin-top: 10px;
+    padding: 0%;
+    width: 150px;
+    grid-area: logo;
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+    grid-area: copyright;
+
+}
+
+/*PAGES*/
+.header_pages {
+    display: flex;
+}
+
+.picture_pages {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_pages {
+    width: 200px;
+    margin: 10px;
+}
+
+
+.titulo_pages {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: #7EA34A;
+}
+
+.abajo_pages {
+    margin: 10px;
+    text-decoration: none;
+    color: #7EA34A;
+    border-bottom: solid 1px;
+    margin-bottom: 30px;
+}
+
+.arriba_p {
+    margin-top: 1rem;
+}
+
+
+/*NOSOTROS*/
+.bienvenida {
+    color: #7EA34A;
+    font-size: 2rem;
+    margin-top: 60px;
+    border-bottom: solid 1px #567032;
+
+}
+
+.article_pages {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+
+}
+
+.img_pages {
+
+    width: 100%;
+    margin-right: 20px;
+
+}
+
+.texto_pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 0;
+    color: #7EA34A;
+    width: 900px;
+    height: 370px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.menu_2_pages {
+    border-top: solid 1px rgb(97, 66, 19);
+    list-style: none;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    margin-bottom: 40px;
+    margin: 10px;
+}
+
+.menu_link2_pages {
+    text-decoration: none;
+    color: rgb(243, 194, 119);
+}
+
+/*VALORES*/
+.title {
+    display: flex;
+    font-size: 35px;
+    color: #7EA34A;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.table {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitulos_partes {
+    border: solid 2px #567032;
+}
+
+.subtitulos1 {
+    border-left: solid 2px #567032;
+    border-right: solid 2px #567032;
+}
+
+.img_div_valor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_valor {
+    border: solid 2px #567032;
+    margin-top: 100px;
+    width: 40%;
+}
+
+/*INMUEBLES*/
+.inmuebles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenes_casas {
+    margin: 20px;
+    border-radius: 20px
+}
+
+.casa_texto {
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #567032;
+}
+
+.casa {
+    margin-right: 20px;
+    font-size: 30px;
+    text-decoration: underline 2px;
+    color: #567032;
+}
+
+.galeria_img {
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
+}
+
+.galeria_img:hover {
+    opacity: 1;
+}
+
+/*CONTACTO*/
+.formulario {
+    display: flex;
+    margin: 20px;
+    border: none;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titulo_consulta {
+    color: #567032;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+.titulo_consulta2 {
+    color: #567032;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.box {
+    margin-bottom: 10px;
+}
+
+.nombre2 {
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+}
+
+.box1 {
+    margin: 10px;
+}
+
+.comentario {
+    border: solid 1px #567032;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.enviar {
+    margin: 10px;
+    background-color: #567032;
+    color: white;
+    border: solid 2px #567032;
+}
+
+.border_ {
+    border-radius: solid 1px black;
+}
+
+/*GRID*/
+
+.grid {
+    display: grid;
+    grid-template-areas:
+        "arriba arriba arriba"
+        "menu menu menu"
+        "logo logo copyright ";
+    grid-template-rows: 100px;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (max-width:480px) {
+
+    /* Home */
+    .titulo {
+        font-size: 40px;
+        border: none
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article img {
+        height: 200px;
+    }
+
+    article p {
+        width: 265px;
+    }
+
+    .aside_texto {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .aside_link {
+        margin-right: 10px;
+    }
+
+    .menu_2 {
+        border: none;
+
+    }
+
+    .menu_link2 {
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+
+    /* Home */
+    .titulo {
+        font-size: 40px;
+        border: none
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    article img {
+        height: 200px;
+    }
+
+    article p {
+        width: 265px;
+    }
+
+    .aside_texto {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .aside_link {
+        margin-right: 10px;
+    }
+
+    .menu_2 {
+        border: none;
+
+    }
+
+    .menu_link2 {
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Nosotros */
+    .bienvenida {
+        margin-left: 20px;
+    }
+
+    .article_pages {
+        flex-direction: column;
+    }
+
+    .img_pages {
+        max-width: 300px;
+        max-height: 200px;
+    }
+
+    .texto_pages {
+        max-width: 300px;
+    }
+
+    /* Valores */
+
+    .table {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    /*Inmuebles*/
+    .inmuebles {
+        flex-direction: column;
+    }
+
+    .imagenes_casas {
+        width: 300px;
+    }
+
+    .casa {
+        font-size: 20px;
+    }
+
+    .casa_texto {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    section {
+        flex-wrap: wrap;
+    }
+
+    .aside {
+        margin-left: 10px;
+    }
+
+    /* Nosotros */
+    .bienvenida {
+        margin-left: 20px;
+    }
+
+    .article_pages {
+        flex-direction: column;
+    }
+
+    .img_pages {
+        margin-left: 50px;
+        width: 500px;
+        height: 300px;
+    }
+
+    .texto_pages {
+        margin-left: 40px;
+        width: 500px;
+        height: 300px;
+        font-size: 20px;
+    }
+
+    /*Inmuebles*/
+    .imagenes_casas {
+        width: 450px;
+    }
+
+    .casa_texto {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:3000px) {
+    .bienvenida {
+        margin-left: 20px;
+    }
+
+    .texto_pages {
+        width: 600px;
+        height: 500px;
+    }
+
+    .img_pages {
+        width: 600px;
+        height: 500px;
+    }
+}

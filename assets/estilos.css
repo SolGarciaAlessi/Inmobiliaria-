@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #a8824d;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*HOME*/
+
+.titulo{
+
+    font-size: 3rem;
+    color: #f3c277;
+    text-align: center;
+    border-bottom: solid 1px rgb(243, 194, 119);
+    
+}
+.nav{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.menu{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 70vw;
+    }
+
+.menu_link{
+    text-decoration: none;
+    color:  rgb(243, 194, 119);
+}
+.logo {
+    width: 200px;
+}
+.abajo {
+    text-decoration: none;
+    color: rgb(243, 194, 119);
+    margin: 30px;
+    border-bottom: solid 1px;
+}
+/*Cuando presiono el "Ir abajo" no me lo lleva al footer sino a la mitad de la pagina.*/
+
+section{
+
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(168, 130, 77);
+    line-height: 1.6;
+    justify-content: center;
+}
+article{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+article img{
+    border: solid 2px rgb(114, 81, 33);
+    height: 227px;
+    padding: 0 ;
+}
+
+article p {
+    border: solid 2px rgb(114, 81, 33);
+    width: 300px;
+    color: rgb(243, 194, 119);
+    padding: 1.5rem;
+    
+}
+.aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside_texto{
+    font-size: 25px;
+    color: rgb(61, 41, 12);
+}
+.aside_link{
+    border: solid 1px rgb(61, 41, 12);
+    color: rgb(61, 41, 12);
+    text-decoration: none;
+}
+.menu_2{
+    border-top:  solid 1px rgb(97, 66, 19);
+    list-style: none;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    margin-bottom: 40px;
+    margin: 10px;
+}
+.menu_link2{
+    text-decoration: none;
+    color:  rgb(243, 194, 119);
+}
+.arriba{
+    border-bottom: solid 1px;
+    text-decoration: none;
+    color: rgb(243, 194, 119);
+    margin: 20px;
+}
+.logo2{
+    width: 150px;
+    margin-top: 10px;
+    padding: 0%;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+/*NOSOTROS*/
+.header_pages{
+    display: flex;
+}
+.picture_pages{
+    display: flex;
+    flex-direction: column;
+}
+.logo_pages{
+    width: 200px;
+    margin: 10px;
+}
+.nav_pages {
+    padding: 0px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.menu_pages{
+
+    margin-top: 90px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 70vw;
+    margin-bottom: 40px;
+    }
+
+.titulo_pages{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: #f3c277;
+}
+.abajo_pages{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(243, 194, 119);
+    border-bottom: solid 1px;
+    margin-bottom: 30px;
+}
+.menu_link_pages{
+    display: flex;
+    text-decoration: none;
+    color:  rgb(243, 194, 119);
+}
+.footer_pages{
+     margin-top: 20%;
+}
+.arriba_p{
+    margin-top: 1rem;
+}
+.arriba_pages{
+    text-decoration: none;
+    color: rgb(243, 194, 119);
+    border-bottom: solid 1px;
+}
+    
+.bienvenida{
+   color: #423016;
+   font-size: 2rem;
+   margin: 30px;
+   border-bottom: #f3c277 solid 1px;
+    
+}
+.article_pages{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15%;
+    
+}
+.img_pages{
+    width: 620px;
+    margin-right: 20px;
+    height: 370px;
+    
+}
+.texto_pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 0;
+    color: rgb(243, 194, 119);
+    width: 900px;
+    height: 370px;
+    font-size: 20px;
+    margin: 10px;
+}
+.menu_2_pages{
+    border-top:  solid 1px rgb(97, 66, 19);
+    list-style: none;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+    margin-bottom: 40px;
+    margin: 10px;
+}
+.menu_link2_pages{
+    text-decoration: none;
+    color:  rgb(243, 194, 119);
+}
+
+/*VALORES*/
+.title{
+    display: flex;
+    font-size: 35px;
+    color: #423016;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom:  solid 1px #423016;
+}
+.table{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.subtitulos_partes{
+    border: solid 1px #423016;
+}
+.subtitulos1{
+    border-left:  solid 1px #423016;
+    border-right: solid 1px #423016;
+}
+.img_div_valor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_valor{
+    border: solid 1px #423016;
+    margin-top: 100px;
+    width: 40%;
+}
+/*INMUEBLES*/
+.inmuebles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagenes_casas{
+    margin: 20px;
+    border-radius:20px
+}
+.casa_texto{
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color:#423016;
+}
+.casa{
+    margin-right: 20px;
+    font-size: 30px;
+    text-decoration:underline 2px;
+    color:#423016;
+}
+.galeria_img {
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
+}
+
+.galeria_img:hover {
+    opacity: 1;
+}
+/*CONTACTO*/
+.formulario{
+    display: flex;
+    margin: 20px;
+    border: none;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.titulo_consulta{
+    color: #423016;
+    font-size: 2rem;
+    margin: 30px;
+}
+.titulo_consulta2{
+    color: #423016;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.nombre{
+    font-size: 17px;
+    font-weight: bold;
+}
+.box{
+    margin-bottom: 10px;
+}
+.nombre2{
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+}
+.box1{
+    margin: 10px;
+}
+.comentario{
+    border: solid 1px rgb(61, 41, 12);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.enviar{
+    margin: 10px;
+    background-color: #f3c277;
+    color:#423016;
+    border: solid 2px #423016;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
