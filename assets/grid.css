@@ -11,7 +11,7 @@ body {
 
 /*HOME*/
 
-.tituloprincipal{
+.tituloprincipal {
 
     font-size: 2.5rem;
     color: #7EA34A;
@@ -48,6 +48,7 @@ body {
     text-decoration: none;
     color: #567032;
     margin-left: 40px;
+    font-size: 20px;
 }
 
 section {
@@ -118,7 +119,7 @@ article p {
 }
 
 .aside_texto {
-    font-size: 25px;
+    font-size: 30px;
     color: #5A734E;
     margin-bottom: 40px;
 }
@@ -161,7 +162,8 @@ article p {
 .arriba {
     text-decoration: none;
     color: #567032;
-    margin: 20px;
+    margin-left: 20px;
+    font-size: 20px;
     grid-area: arriba;
 }
 
@@ -176,7 +178,6 @@ article p {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding: 10px;
     grid-area: copyright;
 
 }
@@ -401,22 +402,29 @@ article p {
 .grid {
     display: grid;
     grid-template-areas:
+
         "arriba arriba arriba"
         "menu menu menu"
-        "logo logo copyright ";
-    grid-template-rows: 100px;
-    grid-template-columns: 1fr;
+        "logo logo copyright";
+
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width:480px) {
 
     /* Home */
-    .header{
+    .header {
         background-size: cover;
     }
-    
-    .abajo{
+
+    .abajo {
         margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .tituloprincipal {
+        font-size: 35px;
     }
 
     section {
@@ -431,26 +439,29 @@ article p {
 
     article p {
         width: 265px;
+        font-size: 20px;
     }
 
     .aside_texto {
-        font-size: 25px;
         margin-left: 10px;
     }
 
     .aside_link {
         margin-right: 10px;
     }
-
-    .menu_2 {
-        border: none;
-
+       
+    .copyright {
+        font-size: 14px;
+        margin-top: 100px;
     }
 
-    .menu_link2 {
-        margin-left: 10px;
-        margin-right: 10px;
+    .grid {
+        grid-template-rows: 1fr 100px 100px;
+        grid-template-columns: 100px;
     }
+  
+
+    /* No puedo agrandar el ASIDE ni el MENU DEL FOOTER probe con font size*/
 
 }
 
