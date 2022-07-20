@@ -106,6 +106,7 @@ article {
 }
 
 article p {
+    font-size: 20px;
     width: 300px;
     color: #7EA34A;
     padding: 1.5rem;
@@ -227,16 +228,15 @@ article p {
 
 .article_pages {
     display: flex;
-    flex-direction: row-reverse;
-    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .img_pages {
-
-    width: 100%;
-    margin-right: 20px;
-
+    margin-top: 100px;
+    width: 400px;
+    height: 300px;
 }
 
 .texto_pages {
@@ -246,10 +246,7 @@ article p {
     margin-right: 30px;
     padding: 0;
     color: #7EA34A;
-    width: 900px;
-    height: 370px;
     font-size: 20px;
-    margin: 10px;
 }
 
 .menu_2_pages {
@@ -293,17 +290,18 @@ article p {
     border-right: solid 2px #567032;
 }
 
-.img_div_valor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .img_valor {
     border: solid 2px #567032;
     margin-top: 100px;
-    width: 40%;
+    width: 300px;
+    height: 200px;
 }
+.d-block{
+    width: 200px;
+    height: 500px;
+}
+/*no pude cambiar el width de la imagen, achicar la imagen*/
 
 /*INMUEBLES*/
 .inmuebles {
@@ -410,8 +408,9 @@ article p {
     grid-template-rows: 100px 100px;
     grid-template-columns: 1fr 1fr;
 }
+   
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:800px) {
 
     /* Home */
     .header {
@@ -421,10 +420,6 @@ article p {
     .abajo {
         margin-left: 10px;
         font-size: 20px;
-    }
-
-    .tituloprincipal {
-        font-size: 35px;
     }
 
     section {
@@ -439,65 +434,27 @@ article p {
 
     article p {
         width: 265px;
+        font-size: 15px;
+    }
+
+    .aside_texto {
+        margin-left: 10px;
         font-size: 20px;
     }
 
-    .aside_texto {
-        margin-left: 10px;
-    }
-
     .aside_link {
         margin-right: 10px;
     }
-       
+
     .copyright {
-        font-size: 14px;
-        margin-top: 100px;
+        font-size: 10px;
+        margin-top: 120px;
     }
 
-    .grid {
+    /* .grid {
         grid-template-rows: 1fr 100px 100px;
         grid-template-columns: 100px;
-    }
-  
-
-    /* No puedo agrandar el ASIDE ni el MENU DEL FOOTER probe con font size*/
-
-}
-
-@media screen and (max-width:800px) {
-
-    /* Home */
-    .titulo {
-        font-size: 40px;
-        border: none
-    }
-
-    section {
-        flex-direction: column;
-    }
-
-    .menu {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    article img {
-        height: 200px;
-    }
-
-    article p {
-        width: 265px;
-    }
-
-    .aside_texto {
-        font-size: 15px;
-        margin-left: 10px;
-    }
-
-    .aside_link {
-        margin-right: 10px;
-    }
+    } */
 
     .menu_2 {
         border: none;
@@ -505,7 +462,7 @@ article p {
     }
 
     .menu_link2 {
-        font-size: 10px;
+        font-size: 15px;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -516,17 +473,16 @@ article p {
     }
 
     .article_pages {
-        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
     }
 
-    .img_pages {
-        max-width: 300px;
-        max-height: 200px;
+    .texto_pages{
+        font-size: 10px;
     }
+   /*La letra no la puedo achicar, no se hace responsive*/
 
-    .texto_pages {
-        max-width: 300px;
-    }
 
     /* Valores */
 
@@ -550,16 +506,52 @@ article p {
 
     .casa_texto {
         font-size: 15px;
+        margin-left: 10px;
     }
 }
 
 @media screen and (max-width:1024px) {
+    .tituloprincipal{
+        font-size: 50px;
+    }
     section {
         flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
     }
 
-    .aside {
+    article p {
+        width: 265px;
+        font-size: 25px;
+    }
+
+    .abajo{
+        font-size: 25px;
+    }
+    .arriba{
+        font-size: 25px;
+    }
+
+    .aside_texto {
+        font-size: 35px;
+
+    }
+    .menu_link2 {
+        font-size: 25px;
         margin-left: 10px;
+        margin-right: 10px;
+    }
+    .copyright {
+        font-size: 25px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .logo2{
+        width: 200px;
+        height: 150px;
+        margin-top: 40px;
+        margin-left: 20px;
     }
 
     /* Nosotros */
@@ -595,6 +587,7 @@ article p {
 }
 
 @media screen and (max-width:3000px) {
+   
     .bienvenida {
         margin-left: 20px;
     }
