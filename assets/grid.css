@@ -63,8 +63,15 @@ article {
     margin: 20px;
 }
 
+.articulo_1 {
+    display: flex;
+    justify-content: center;
+
+}
+
 .cambiar_img1 {
     background-image: url(./img/img1exterior.jpg);
+
     height: 400px;
     width: 300px;
     background-size: cover;
@@ -72,6 +79,7 @@ article {
 
 .cambiar_img1:hover {
     background-image: url(./img/img1interior.jpg);
+    transition-duration: 1s;
     height: 400px;
     width: 300px;
     background-size: cover;
@@ -86,6 +94,7 @@ article {
 
 .cambiar_img2:hover {
     background-image: url(./img/img2interior.jpg);
+    transition-duration: 1s;
     height: 400px;
     width: 300px;
     background-size: cover;
@@ -100,6 +109,7 @@ article {
 
 .cambiar_img3:hover {
     background-image: url(./img/img3interior.jpg);
+    transition-duration: 1s;
     height: 400px;
     width: 300px;
     background-size: cover;
@@ -170,18 +180,12 @@ article p {
 
 .logo2 {
     margin-top: 10px;
+    margin-left: 10px;
     padding: 0%;
     width: 150px;
     grid-area: logo;
 }
 
-.copyright {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    grid-area: copyright;
-
-}
 
 /*PAGES*/
 
@@ -219,11 +223,19 @@ article p {
 
 /*NOSOTROS*/
 .bienvenida {
+    display: flex;
+    justify-content: center;
     color: #7EA34A;
-    font-size: 2rem;
-    margin-top: 60px;
-    border-bottom: solid 1px #567032;
+    font-size: 3rem;
 
+}
+
+.section_nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
 }
 
 .article_pages {
@@ -233,22 +245,16 @@ article p {
 
 }
 
-.img_pages {
-    margin-top: 100px;
-    width: 400px;
-    height: 300px;
-}
-
 .texto_pages {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    margin-right: 30px;
+    margin-top: 10px;
+    width: 600px;
     padding: 0;
     color: #7EA34A;
     font-size: 20px;
 }
-
 .menu_2_pages {
     border-top: solid 1px rgb(97, 66, 19);
     list-style: none;
@@ -297,10 +303,12 @@ article p {
     width: 300px;
     height: 200px;
 }
-.d-block{
+
+.d-block {
     width: 200px;
     height: 500px;
 }
+
 /*no pude cambiar el width de la imagen, achicar la imagen*/
 
 /*INMUEBLES*/
@@ -408,7 +416,7 @@ article p {
     grid-template-rows: 100px 100px;
     grid-template-columns: 1fr 1fr;
 }
-   
+
 
 @media screen and (max-width:800px) {
 
@@ -432,24 +440,21 @@ article p {
         height: 200px;
     }
 
-    article p {
-        width: 265px;
-        font-size: 15px;
+    .articulo_1 {
+        width: 300px;
+        font-size: 10px;
     }
 
-    .aside_texto {
-        margin-left: 10px;
-        font-size: 20px;
+    .aside_texto.animate__animated.animate__backInLeft {
+        font-size: 23px;
     }
 
     .aside_link {
         margin-right: 10px;
     }
 
-    .copyright {
-        font-size: 10px;
-        margin-top: 120px;
-    }
+
+
 
     /* .grid {
         grid-template-rows: 1fr 100px 100px;
@@ -460,30 +465,29 @@ article p {
         border: none;
 
     }
-
+}
     .menu_link2 {
-        font-size: 15px;
+        font-size: 20px;
         margin-left: 10px;
         margin-right: 10px;
     }
+    @media screen and (max-width:800px) {
 
-    /* Nosotros */
-    .bienvenida {
-        margin-left: 20px;
+    /* Nosotros*/
+    .bienvenida{
+        font-size: 2rem;
     }
-
-    .article_pages {
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+    .section_nosotros{
+        width: 100%;
     }
-
+    .img_pages{
+        width: 400px;
+        height: 250px;
+    }
     .texto_pages{
-        font-size: 10px;
+        width: 400px;
     }
-   /*La letra no la puedo achicar, no se hace responsive*/
-
-
+}
     /* Valores */
 
     .table {
@@ -511,9 +515,10 @@ article p {
 }
 
 @media screen and (max-width:1024px) {
-    .tituloprincipal{
+    .tituloprincipal {
         font-size: 50px;
     }
+
     section {
         flex-wrap: wrap;
         align-items: center;
@@ -525,10 +530,11 @@ article p {
         font-size: 25px;
     }
 
-    .abajo{
+    .abajo {
         font-size: 25px;
     }
-    .arriba{
+
+    .arriba {
         font-size: 25px;
     }
 
@@ -536,18 +542,21 @@ article p {
         font-size: 35px;
 
     }
+
     .menu_link2 {
         font-size: 25px;
         margin-left: 10px;
         margin-right: 10px;
     }
+
     .copyright {
         font-size: 25px;
         margin-top: 100px;
         margin-bottom: 10px;
         margin-right: 10px;
     }
-    .logo2{
+
+    .logo2 {
         width: 200px;
         height: 150px;
         margin-top: 40px;
@@ -583,22 +592,5 @@ article p {
 
     .casa_texto {
         font-size: 15px;
-    }
-}
-
-@media screen and (max-width:3000px) {
-   
-    .bienvenida {
-        margin-left: 20px;
-    }
-
-    .texto_pages {
-        width: 600px;
-        height: 500px;
-    }
-
-    .img_pages {
-        width: 600px;
-        height: 500px;
     }
 }
