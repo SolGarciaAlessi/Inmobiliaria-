@@ -234,7 +234,7 @@ article p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    
     
 }
 
@@ -273,7 +273,7 @@ article p {
 /*VALORES*/
 .title {
     display: flex;
-    font-size: 35px;
+    font-size: 3rem;
     color: #7EA34A;
     justify-content: center;
     margin-bottom: 30px;
@@ -282,9 +282,17 @@ article p {
 
 .table {
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     align-items: center;
     justify-content: center;
+}
+.carousel{
+    display: flex;
+    margin-left: 35%;
+}
+.d-block.w-100{
+    width: 400px !important;
+    height: 300px;
 }
 
 .subtitulos_partes {
@@ -478,21 +486,29 @@ article p {
         font-size: 2rem;
     }
     .section_nosotros{
-        width: 100%;
+        width: 400px;
     }
     .img_pages{
         width: 400px;
         height: 250px;
     }
     .texto_pages{
-        width: 400px;
+        margin-bottom: 50px; 
+        width: 400px; 
+        font-size: 20px; 
     }
-}
+
     /* Valores */
+    .carousel{
+        margin-left: 45px;
+    }
+    .d-block.w-100{
+        height: 200px;
+    }
 
     .table {
-        font-size: 12px;
-        margin-left: 10px;
+        width: 100%;
+        font-size: 15px;
     }
 
     /*Inmuebles*/
@@ -563,27 +579,7 @@ article p {
         margin-left: 20px;
     }
 
-    /* Nosotros */
-    .bienvenida {
-        margin-left: 20px;
-    }
-
-    .article_pages {
-        flex-direction: column;
-    }
-
-    .img_pages {
-        margin-left: 50px;
-        width: 500px;
-        height: 300px;
-    }
-
-    .texto_pages {
-        margin-left: 40px;
-        width: 500px;
-        height: 300px;
-        font-size: 20px;
-    }
+    
 
     /*Inmuebles*/
     .imagenes_casas {
