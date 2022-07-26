@@ -1,0 +1,27 @@
+{
+  "name": "inmobiliaria",
+  "version": "1.0.0",
+  "description": "<h1> Inmobiliaria </h1>\r <p>Esta es una inmobiliaria en la que vamos a vender propiedades</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/estilos.scss assets/css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolGarciaAlessi/Inmobiliaria-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolGarciaAlessi/Inmobiliaria-/issues"
+  },
+  "homepage": "https://github.com/SolGarciaAlessi/Inmobiliaria-#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
