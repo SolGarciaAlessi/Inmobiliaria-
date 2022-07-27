@@ -20,15 +20,6 @@ body {
     border-bottom: solid 1px #7EA34A;
 }
 
-.logo2 {
-    width: 80px;
-    display: flex;
-    height: 110px;
-    margin-right: 20px;
-    margin-bottom: 55px;
-    padding: 0%;
-}
-
 .collapsenavbar-collapse {
     margin-top: 20px;
 }
@@ -40,14 +31,6 @@ body {
     background-position: top;
     height: 25rem;
     margin-bottom: 20px;
-}
-
-
-.abajo {
-    text-decoration: none;
-    color: #567032;
-    margin-left: 40px;
-    font-size: 20px;
 }
 
 section {
@@ -129,7 +112,7 @@ article {
         margin-bottom: 40px;
     }
 
-    .aside &_link {
+    &_link {
         color: #5A734E;
         text-decoration: none;
         padding: 0;
@@ -167,12 +150,20 @@ article {
 .footer {
     background-color: white;
 }
+
 .arriba {
     text-decoration: none;
     color: #567032;
     margin-left: 20px;
     font-size: 20px;
     grid-area: arriba;
+}
+
+.abajo {
+    text-decoration: none;
+    color: #567032;
+    margin-left: 40px;
+    font-size: 20px;
 }
 
 .logo2 {
@@ -183,20 +174,7 @@ article {
     grid-area: logo;
 }
 
-
 /*PAGES*/
-
-
-.picture_pages {
-    display: flex;
-    flex-direction: column;
-}
-
-.logo_pages {
-    width: 200px;
-    margin: 10px;
-}
-
 
 .titulo_pages {
     display: flex;
@@ -205,34 +183,16 @@ article {
     color: #7EA34A;
 }
 
-.abajo_pages {
-    margin: 10px;
-    text-decoration: none;
-    color: #7EA34A;
-    border-bottom: solid 1px;
-    margin-bottom: 30px;
-}
-
-.arriba_p {
-    margin-top: 1rem;
-}
-
-
 /*NOSOTROS*/
-.bienvenida {
-    display: flex;
-    justify-content: center;
-    color: #7EA34A;
-    font-size: 3rem;
 
-}
+main {
+    & bienvenida {
+        display: flex;
+        justify-content: center;
+        color: #7EA34A;
+        font-size: 3rem;
 
-.section_nosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
+    }
 }
 
 .article_pages {
@@ -240,35 +200,26 @@ article {
     flex-direction: column;
     align-items: center;
 
-}
+    & section_nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-.texto_pages {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 10px;
-    width: 600px;
-    padding: 0;
-    color: #7EA34A;
-    font-size: 20px;
-}
-
-.menu_2_pages {
-    border-top: solid 1px rgb(97, 66, 19);
-    list-style: none;
-    justify-content: space-around;
-    padding: 30px;
-    align-items: center;
-    margin-bottom: 40px;
-    margin: 10px;
-}
-
-.menu_link2_pages {
-    text-decoration: none;
-    color: rgb(243, 194, 119);
+        & texto_pages {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            margin-top: 10px;
+            width: 600px;
+            padding: 0;
+            color: #7EA34A;
+            font-size: 20px;
+        }
+    }
 }
 
 /*VALORES*/
+
 .title {
     display: flex;
     font-size: 3rem;
@@ -285,6 +236,10 @@ article {
     justify-content: center;
 }
 
+.subtitulos_partes {
+    border: solid 2px #567032;
+}
+
 .carousel {
     display: flex;
     margin-left: 35%;
@@ -295,29 +250,12 @@ article {
     height: 300px;
 }
 
-.subtitulos_partes {
-    border: solid 2px #567032;
-}
-
-.subtitulos1 {
-    border-left: solid 2px #567032;
-    border-right: solid 2px #567032;
-}
-
-
 .img_valor {
     border: solid 2px #567032;
     margin-top: 100px;
     width: 300px;
     height: 200px;
 }
-
-.d-block {
-    width: 200px;
-    height: 500px;
-}
-
-/*no pude cambiar el width de la imagen, achicar la imagen*/
 
 /*INMUEBLES*/
 .inmuebles {
@@ -326,16 +264,18 @@ article {
     justify-content: center;
 }
 
+.galeria_img {
+    opacity: 0.5;
+    transition: all 0.8s ease-in-out;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
 .imagenes_casas {
     margin: 20px;
     border-radius: 20px
-}
-
-.casa_texto {
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    color: #567032;
 }
 
 .casa {
@@ -343,15 +283,13 @@ article {
     font-size: 30px;
     text-decoration: underline 2px;
     color: #567032;
-}
 
-.galeria_img {
-    opacity: 0.5;
-    transition: all 0.8s ease-in-out;
-}
-
-.galeria_img:hover {
-    opacity: 1;
+    &_texto {
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: #567032;
+    }
 }
 
 /*CONTACTO*/
@@ -380,19 +318,22 @@ article {
     font-weight: bold;
 }
 
-.box {
-    margin-bottom: 10px;
-}
-
 .nombre2 {
     font-size: 17px;
     font-weight: bold;
     display: flex;
+
+
 }
 
 .box1 {
     margin: 10px;
 }
+
+.box {
+    margin-bottom: 10px;
+}
+
 
 .comentario {
     border: solid 1px #567032;
