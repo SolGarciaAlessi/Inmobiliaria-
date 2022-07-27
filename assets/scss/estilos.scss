@@ -15,9 +15,9 @@ body {
 
 .tituloprincipal {
     font-size: 2.5rem;
-    color: #7EA34A;
+    color: $titulocolor;
     text-align: center;
-    border-bottom: solid 1px #7EA34A;
+    border-bottom: solid 1px $titulocolor;
 }
 
 .collapsenavbar-collapse {
@@ -46,7 +46,7 @@ article {
     & p {
         font-size: 20px;
         width: 300px;
-        color: #7EA34A;
+        color: $titulocolor;
         padding: 1.5rem;
     }
 
@@ -108,12 +108,12 @@ article {
 
     &_texto {
         font-size: 30px;
-        color: #5A734E;
+        color: $asidecolor;
         margin-bottom: 40px;
     }
 
     &_link {
-        color: #5A734E;
+        color: $asidecolor;
         text-decoration: none;
         padding: 0;
 
@@ -185,37 +185,36 @@ article {
 
 /*NOSOTROS*/
 
-main {
-    & bienvenida {
-        display: flex;
-        justify-content: center;
-        color: #7EA34A;
-        font-size: 3rem;
+.bienvenida {
+    display: flex;
+    justify-content: center;
+    color: #7EA34A;
+    font-size: 3rem;
 
-    }
 }
+
 
 .article_pages {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
-    & section_nosotros {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+.section_nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        & texto_pages {
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            margin-top: 10px;
-            width: 600px;
-            padding: 0;
-            color: #7EA34A;
-            font-size: 20px;
-        }
-    }
+.texto_pages {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+    width: 600px;
+    padding: 0;
+    color: #7EA34A;
+    font-size: 20px;
 }
 
 /*VALORES*/
@@ -368,8 +367,8 @@ main {
 
 
 @media screen and (max-width:800px) {
-
     /* Home */
+
     .header {
         background-size: cover;
     }
@@ -385,41 +384,42 @@ main {
         align-content: center;
     }
 
-    article img {
-        height: 200px;
-    }
-
     .articulo_1 {
-        width: 300px;
-        font-size: 10px;
+        & p {
+            width: 300px;
+            font-size: 17px;
+        }
     }
 
-    .aside_texto.animate__animated.animate__backInLeft {
-        font-size: 23px;
+    article {
+        & img {
+            height: 200px;
+        }
     }
 
     .aside_link {
         margin-right: 10px;
     }
 
-
+    .aside_texto.animate__animated.animate__backInLeft {
+        font-size: 23px;
+    }
 
 
     /* .grid {
         grid-template-rows: 1fr 100px 100px;
         grid-template-columns: 100px;
     } */
-
-    .menu_2 {
-        border: none;
-
+    ul {
+        & menu_2 {
+            border: none;
+        }
+        & menu_link2 {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
     }
-}
-
-.menu_link2 {
-    font-size: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 @media screen and (max-width:800px) {

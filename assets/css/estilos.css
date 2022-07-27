@@ -143,7 +143,7 @@ article {
   color: #7EA34A; }
 
 /*NOSOTROS*/
-main bienvenida {
+.bienvenida {
   display: flex;
   justify-content: center;
   color: #7EA34A;
@@ -153,19 +153,21 @@ main bienvenida {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .article_pages section_nosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .article_pages section_nosotros texto_pages {
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      margin-top: 10px;
-      width: 600px;
-      padding: 0;
-      color: #7EA34A;
-      font-size: 20px; }
+
+.section_nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.texto_pages {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10px;
+  width: 600px;
+  padding: 0;
+  color: #7EA34A;
+  font-size: 20px; }
 
 /*VALORES*/
 .title {
@@ -290,26 +292,25 @@ main bienvenida {
     flex-direction: column;
     align-items: center;
     align-content: center; }
+  .articulo_1 p {
+    width: 300px;
+    font-size: 17px; }
   article img {
     height: 200px; }
-  .articulo_1 {
-    width: 300px;
-    font-size: 10px; }
-  .aside_texto.animate__animated.animate__backInLeft {
-    font-size: 23px; }
   .aside_link {
     margin-right: 10px; }
+  .aside_texto.animate__animated.animate__backInLeft {
+    font-size: 23px; }
   /* .grid {
         grid-template-rows: 1fr 100px 100px;
         grid-template-columns: 100px;
     } */
-  .menu_2 {
-    border: none; } }
-
-.menu_link2 {
-  font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px; }
+  ul menu_2 {
+    border: none; }
+  ul menu_link2 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px; } }
 
 @media screen and (max-width: 800px) {
   /* Nosotros*/
