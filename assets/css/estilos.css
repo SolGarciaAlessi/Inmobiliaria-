@@ -26,7 +26,7 @@ body {
   margin-top: 20px; }
 
 .header {
-  background-image: url(./img/TANDIL6.jpg);
+  background-image: url(../img/TANDIL6.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
@@ -45,76 +45,65 @@ section {
   line-height: 1.6;
   justify-content: center; }
 
-sectionarticle {
+article {
   margin: 20px; }
-
-sectionarticulo_1 {
-  display: flex;
-  justify-content: center; }
-
-.articulo_1 {
-  display: flex;
-  justify-content: center; }
+  article p {
+    font-size: 20px;
+    width: 300px;
+    color: #7EA34A;
+    padding: 1.5rem; }
+  article articulo_1 {
+    display: flex;
+    justify-content: center; }
 
 .cambiar_img1 {
-  background-image: url(./img/img1exterior.jpg);
+  background-image: url(../img/img1exterior.jpg);
   height: 400px;
   width: 300px;
   background-size: cover; }
-
-.cambiar_img1:hover {
-  background-image: url(./img/img1interior.jpg);
-  transition-duration: 1s;
-  height: 400px;
-  width: 300px;
-  background-size: cover; }
+  .cambiar_img1:hover {
+    background-image: url(../img/img1interior.jpg);
+    transition-duration: 1s;
+    height: 400px;
+    width: 300px;
+    background-size: cover; }
 
 .cambiar_img2 {
-  background-image: url(./img/img2exterior.jpg);
+  background-image: url(../img/img2exterior.jpg);
   height: 400px;
   width: 300px;
   background-size: cover; }
-
-.cambiar_img2:hover {
-  background-image: url(./img/img2interior.jpg);
-  transition-duration: 1s;
-  height: 400px;
-  width: 300px;
-  background-size: cover; }
+  .cambiar_img2:hover {
+    background-image: url(../img/img2interior.jpg);
+    transition-duration: 1s;
+    height: 400px;
+    width: 300px;
+    background-size: cover; }
 
 .cambiar_img3 {
-  background-image: url(./img/img3exterior.jpg);
+  background-image: url(../img/img3exterior.jpg);
   height: 400px;
   width: 300px;
   background-size: cover; }
-
-.cambiar_img3:hover {
-  background-image: url(./img/img3interior.jpg);
-  transition-duration: 1s;
-  height: 400px;
-  width: 300px;
-  background-size: cover; }
-
-article p {
-  font-size: 20px;
-  width: 300px;
-  color: #7EA34A;
-  padding: 1.5rem; }
+  .cambiar_img3:hover {
+    background-image: url(../img/img3interior.jpg);
+    transition-duration: 1s;
+    height: 400px;
+    width: 300px;
+    background-size: cover; }
 
 .aside {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.aside_texto {
-  font-size: 30px;
-  color: #5A734E;
-  margin-bottom: 40px; }
-
-.aside_link {
-  color: #5A734E;
-  text-decoration: none;
-  padding: 0; }
+  .aside_texto {
+    font-size: 30px;
+    color: #5A734E;
+    margin-bottom: 40px; }
+  .aside .aside_link {
+    color: #5A734E;
+    text-decoration: none;
+    padding: 0; }
 
 .imgpng {
   width: 50px;
@@ -122,9 +111,6 @@ article p {
   margin-left: 5px;
   margin-bottom: 30px;
   padding: 0; }
-
-.footer {
-  background-color: white; }
 
 .menu_2 {
   display: flex;
@@ -139,6 +125,9 @@ article p {
   color: #567032;
   font-size: 20px;
   grid-area: menu; }
+
+.footer {
+  background-color: white; }
 
 .arriba {
   text-decoration: none;

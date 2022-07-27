@@ -34,7 +34,7 @@ body {
 }
 
 .header {
-    background-image: url(./img/TANDIL6.jpg);
+    background-image: url(../img/TANDIL6.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
@@ -70,7 +70,7 @@ article {
 }
 
 .cambiar_img1 {
-    background-image: url(./img/img1exterior.jpg);
+    background-image: url(../img/img1exterior.jpg);
 
     height: 400px;
     width: 300px;
@@ -78,7 +78,7 @@ article {
 }
 
 .cambiar_img1:hover {
-    background-image: url(./img/img1interior.jpg);
+    background-image: url(../img/img1interior.jpg);
     transition-duration: 1s;
     height: 400px;
     width: 300px;
@@ -86,14 +86,14 @@ article {
 }
 
 .cambiar_img2 {
-    background-image: url(./img/img2exterior.jpg);
+    background-image: url(../img/img2exterior.jpg);
     height: 400px;
     width: 300px;
     background-size: cover;
 }
 
 .cambiar_img2:hover {
-    background-image: url(./img/img2interior.jpg);
+    background-image: url(../img/img2interior.jpg);
     transition-duration: 1s;
     height: 400px;
     width: 300px;
@@ -101,14 +101,14 @@ article {
 }
 
 .cambiar_img3 {
-    background-image: url(./img/img3exterior.jpg);
+    background-image: url(../img/img3exterior.jpg);
     height: 400px;
     width: 300px;
     background-size: cover;
 }
 
 .cambiar_img3:hover {
-    background-image: url(./img/img3interior.jpg);
+    background-image: url(../img/img3interior.jpg);
     transition-duration: 1s;
     height: 400px;
     width: 300px;
