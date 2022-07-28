@@ -1,4 +1,11 @@
-@import "variables";
+@import "./utilities/variables";
+@import "./componets/buttom";
+@import "./layout/flex-grid";
+@import "./views/contacto";
+@import "./views/inmuebles";
+@import "./views/nosotros";
+@import "./views/valores";
+@import "./utilities/mediaqueries";
 
 * {
     margin: 0;
