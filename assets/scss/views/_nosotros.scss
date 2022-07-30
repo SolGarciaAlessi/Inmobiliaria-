@@ -1,0 +1,34 @@
+
+/*NOSOTROS*/
+
+.bienvenida {
+    display: flex;
+    justify-content: center;
+    color: #7EA34A;
+    font-size: 3rem;
+
+}
+
+
+.article_pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto_pages {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+    width: 600px;
+    padding: 0;
+    color: #7EA34A;
+    font-size: 20px;
+}
