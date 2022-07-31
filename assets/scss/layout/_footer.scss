@@ -1,0 +1,58 @@
+.footer {
+    background-color: white;
+}
+
+.arriba {
+    text-decoration: none;
+    color: #567032;
+    margin-left: 20px;
+    font-size: 20px;
+    grid-area: arriba;
+}
+
+.abajo {
+    text-decoration: none;
+    color: #567032;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.logo2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0%;
+    width: 150px;
+    grid-area: logo;
+}
+
+.menu_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    grid-area: menu;
+}
+
+.menu {
+    &_link2 {
+        text-decoration: none;
+        color: #567032;
+        font-size: 20px;
+        grid-area: menu;
+    }
+}
+
+/*GRID*/
+
+.grid {
+    display: grid;
+    grid-template-areas:
+
+        "arriba arriba arriba"
+        "menu menu menu"
+        "logo logo copyright";
+
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 1fr;
+}

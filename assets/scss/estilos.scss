@@ -21,7 +21,6 @@
 @import "./utilities/mediaqueries";
 @import "./utilities/operator";
 
-
 * {
     margin: 0;
     padding: 0;
@@ -33,26 +32,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/*HOME*/
-
 .tituloprincipal {
     font-size: 2.5rem;
     color: $titulocolor;
     text-align: center;
     border-bottom: solid 1px $titulocolor;
-}
-
-.collapsenavbar-collapse {
-    margin-top: 20px;
-}
-
-.header {
-    background-image: url(../img/TANDIL6.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
-    height: 25rem;
-    margin-bottom: 20px;
 }
 
 section {
@@ -151,73 +135,8 @@ article {
 }
 
 
-.menu_2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    margin: 10px;
-    grid-area: menu;
-}
-
-.menu {
-    &_link2 {
-        text-decoration: none;
-        color: #567032;
-        font-size: 20px;
-        grid-area: menu;
-    }
-}
-
-.footer {
-    background-color: white;
-}
-
-.arriba {
-    text-decoration: none;
-    color: #567032;
-    margin-left: 20px;
-    font-size: 20px;
-    grid-area: arriba;
-}
-
-.abajo {
-    text-decoration: none;
-    color: #567032;
-    margin-left: 40px;
-    font-size: 20px;
-}
-
-.logo2 {
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 0%;
-    width: 150px;
-    grid-area: logo;
-}
-
-/*PAGES*/
-
-.titulo_pages {
-    display: flex;
-    justify-content: space-around;
-    font-size: 2rem;
-    color: #7EA34A;
-}
 
 
 
-/*GRID*/
 
-.grid {
-    display: grid;
-    grid-template-areas:
-
-        "arriba arriba arriba"
-        "menu menu menu"
-        "logo logo copyright";
-
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 1fr 1fr;
-}
 
