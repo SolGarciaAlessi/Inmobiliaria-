@@ -1,23 +1,12 @@
-main {
-    & p{
-        & a{
-           text-decoration: none;
-           color: #567032;
-           margin-left: 40px;
-           font-size: 20px;
-        }
-        
-    }
-
-    & h3{
-        font-size: 2.5rem;
-        color: $titulocolor;
-        text-align: center;
-        border-bottom: solid $borderpx $titulocolor;
-    }
+.tituloprincipal {
+    font-size: 2.5rem;
+    color: $titulocolor;
+    text-align: center;
+    border-bottom: solid $borderpx $titulocolor;
 }
 
 section {
+
     margin-top: 60px;
     display: flex;
     line-height: 1.6;
@@ -26,63 +15,44 @@ section {
 
 article {
     margin: 20px;
+}
 
-    & p {
-        font-size: 20px;
-        width: $widthimg;
-        color: $titulocolor;
-        padding: 1.5rem;
-    }
+.articulo_1 {
+    display: flex;
+    justify-content: center;
 
-    & articulo_1 {
-        display: flex;
-        justify-content: center;
-    }
 }
 
 .cambiar_img1 {
     background-image: url(../img/img1exterior.jpg);
-    height: 400px;
-    width: $widthimg;
-    background-size: cover;
+}
 
-    &:hover {
-        background-image: url(../img/img1interior.jpg);
-        transition-duration: 1s;
-        height: 400px;
-        width: $widthimg;
-        background-size: cover;
-    }
+.cambiar_img1:hover {
+    background-image: url(../img/img1interior.jpg);
 }
 
 .cambiar_img2 {
     background-image: url(../img/img2exterior.jpg);
-    height: 400px;
-    width: $widthimg;
-    background-size: cover;
+}
 
-    &:hover {
-        background-image: url(../img/img2interior.jpg);
-        transition-duration: 1s;
-        height: 400px;
-        width: $widthimg;
-        background-size: cover;
-    }
+.cambiar_img2:hover {
+    background-image: url(../img/img2interior.jpg);
 }
 
 .cambiar_img3 {
     background-image: url(../img/img3exterior.jpg);
-    height: 400px;
-    width: $widthimg;
-    background-size: cover;
+}
 
-    &:hover {
-        background-image: url(../img/img3interior.jpg);
-        transition-duration: 1s;
-        height: 400px;
-        width: $widthimg;
-        background-size: cover;
-    }
+.cambiar_img3:hover {
+    background-image: url(../img/img3interior.jpg);
+}
+
+article p {
+    font-size: 20px;
+    width: 300px;
+    color: #7EA34A;
+    padding: 1.5rem;
+
 }
 
 .aside {
@@ -111,3 +81,4 @@ article {
     margin-bottom: 30px;
     padding: 0;
 }
+
