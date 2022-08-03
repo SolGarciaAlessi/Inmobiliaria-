@@ -1,3 +1,4 @@
+@import url(./utilities/_maps.scss);
 .carousel {
   display: flex;
   margin-left: 35%; }
