@@ -1,60 +1,59 @@
-
 /*CONTACTO*/
-.formulario {
-    display: flex;
-    margin: 20px;
-    border: none;
-    flex-direction: column;
-    align-items: flex-start;
+form {
+    & h3 {
+        color: $colorbase;
+        font-size: 2rem;
+        margin: 30px;
+    }
+
+    & fieldset {
+        display: flex;
+        margin: 20px;
+        border: none;
+        flex-direction: column;
+        align-items: flex-start;
+
+        & legend {
+            color: $colorbase;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        & label {
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        & div {
+            font-size: 17px;
+            font-weight: bold;
+            display: flex;
+
+            & input {
+                margin: 10px;
+
+                & box {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+    }
 }
-
-.titulo_consulta {
-    color: #567032;
-    font-size: 2rem;
-    margin: 30px;
-}
-
-.titulo_consulta2 {
-    color: #567032;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.nombre {
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.nombre2 {
-    font-size: 17px;
-    font-weight: bold;
-    display: flex;
-
-
-}
-
-.box1 {
-    margin: 10px;
-}
-
-.box {
-    margin-bottom: 10px;
-}
-
 
 .comentario {
-    border: solid 1px #567032;
+    border: solid $borderpx $colorbase;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .enviar {
     margin: 10px;
-    background-color: #567032;
+    background-color: $colorbase;
     color: white;
-    border: solid 2px #567032;
+    border: solid 2px $colorbase;
 }
 
 .border_ {
-    border-radius: solid 1px black;
+    border-radius: solid $borderpx black;
 }
