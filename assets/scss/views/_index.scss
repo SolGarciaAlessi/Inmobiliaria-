@@ -5,11 +5,18 @@
     border-bottom: solid $borderpx $titulocolor;
 }
 
+.abajo {
+    text-decoration: none;
+    color: #567032;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
 section {
 
     margin-top: 60px;
     display: flex;
-    line-height: 1.6;
+    line-height: 1.5;
     justify-content: center;
 }
 
@@ -24,7 +31,7 @@ article {
 }
 
 .cambiar_img1 {
-    background-image: url(../img/img1exterior.jpg);
+    background-image: url(../img);
 }
 
 .cambiar_img1:hover {
@@ -49,9 +56,9 @@ article {
 
 article p {
     font-size: 20px;
-    width: 300px;
+    width: 320px;
     color: #7EA34A;
-    padding: 1.5rem;
+    padding: 1rem;
 
 }
 
