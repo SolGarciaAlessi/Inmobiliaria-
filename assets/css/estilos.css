@@ -40,9 +40,7 @@
 /*GRID*/
 .grid {
   display: grid;
-  grid-template-areas: "arriba arriba arriba"
- "menu menu menu"
- "logo logo copyright";
+  grid-template-areas: "arriba arriba arriba" "menu menu menu" "logo logo copyright";
   grid-template-rows: 100px 100px;
   grid-template-columns: 1fr 1fr; }
 
@@ -83,7 +81,7 @@ article {
   justify-content: center; }
 
 .cambiar_img1 {
-  background-image: url(../img/img1exteriorcomprim.jpg); }
+  background-image: url(../img/img1exteriorcomprim.jpm); }
 
 .cambiar_img1:hover {
   background-image: url(../img/img1interior.jpg); }
