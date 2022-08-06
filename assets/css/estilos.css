@@ -81,7 +81,7 @@ article {
   justify-content: center; }
 
 .cambiar_img1 {
-  background-image: url(../img/img1exteriorcomprim.jpm); }
+  background-image: url(../img/img1exteriorcomprim.jpg); }
 
 .cambiar_img1:hover {
   background-image: url(../img/img1interior.jpg); }
@@ -97,6 +97,36 @@ article {
 
 .cambiar_img3:hover {
   background-image: url(../img/img3interior.jpg); }
+
+.cambiar_img1 {
+  height: 400px;
+  width: 300px;
+  background-size: cover; }
+  .cambiar_img1:hover {
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    transition-duration: 1s; }
+
+.cambiar_img2 {
+  height: 400px;
+  width: 300px;
+  background-size: cover; }
+  .cambiar_img2:hover {
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    transition-duration: 1s; }
+
+.cambiar_img3 {
+  height: 400px;
+  width: 300px;
+  background-size: cover; }
+  .cambiar_img3:hover {
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    transition-duration: 1s; }
 
 article p {
   font-size: 20px;
@@ -246,66 +276,85 @@ body {
   background-color: white;
   font-family: 'Times New Roman', Times, serif; }
 
-.cambiar_img1 {
-  height: 400px;
-  width: 300px;
-  background-size: cover; }
-  .cambiar_img1:hover {
-    height: 400px;
-    width: 300px;
-    background-size: cover;
-    transition-duration: 1s; }
-
-.cambiar_img2 {
-  height: 400px;
-  width: 300px;
-  background-size: cover; }
-  .cambiar_img2:hover {
-    height: 400px;
-    width: 300px;
-    background-size: cover;
-    transition-duration: 1s; }
-
-.cambiar_img3 {
-  height: 400px;
-  width: 300px;
-  background-size: cover; }
-  .cambiar_img3:hover {
-    height: 400px;
-    width: 300px;
-    background-size: cover;
-    transition-duration: 1s; }
-
 @media screen and (max-width: 800px) {
   /* Home */
   .header {
-    background-size: cover; }
-  .abajo {
-    margin-left: 10px;
-    font-size: 20px; }
+    background-size: cover;
+    height: 15rem; }
+  a abajo {
+    font-size: 1rem; }
+  .tituloprincipal {
+    font-size: 2.5rem; }
   section {
     flex-direction: column;
     align-items: center;
-    align-content: center; }
+    align-content: center;
+    line-height: 1.5; }
+  .cambiar_img1 {
+    height: 300px;
+    width: 200px; }
+    .cambiar_img1:hover {
+      height: 300px;
+      width: 200px; }
+  .cambiar_img2 {
+    height: 300px;
+    width: 200px; }
+    .cambiar_img2:hover {
+      height: 300px;
+      width: 200px; }
+  .cambiar_img3 {
+    height: 300px;
+    width: 200px; }
+    .cambiar_img3:hover {
+      height: 300px;
+      width: 200px; }
   .articulo_1 p {
-    width: 300px;
-    font-size: 17px; }
-  article img {
-    height: 200px; }
+    width: 400px;
+    height: 200px;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 1px #567032 solid;
+    margin-top: 3px; }
   .aside_link {
     margin-right: 10px; }
   .aside_texto.animate__animated.animate__backInLeft {
-    font-size: 23px; }
-  /* .grid {
-        grid-template-rows: 1fr 100px 100px;
-        grid-template-columns: 100px;
-    } */
-  ul menu_2 {
-    border: none; }
+    font-size: 1.3rem; }
+  a arriba {
+    font-size: 1rem; }
   ul menu_link2 {
-    font-size: 20px;
+    font-size: 10px;
     margin-left: 10px;
     margin-right: 10px; } }
+
+@media screen and (min-width: 801px) {
+  section {
+    flex-wrap: wrap; }
+  .articulo_1 p {
+    font-size: 19px; }
+  .cambiar_img1 {
+    height: 350px;
+    width: 300px;
+    background-image: cover; }
+    .cambiar_img1:hover {
+      height: 350px;
+      width: 300px; }
+  .cambiar_img2 {
+    height: 350px;
+    width: 300px;
+    background-image: cover; }
+    .cambiar_img2:hover {
+      height: 350px;
+      width: 300px; }
+  .cambiar_img3 {
+    height: 350px;
+    width: 300px;
+    background-image: cover; }
+    .cambiar_img3:hover {
+      height: 350px;
+      width: 300px; }
+  .aside_texto.animate__animated.animate__backInLeft {
+    font-size: 1.3rem; } }
 
 @media screen and (max-width: 800px) {
   /* Nosotros*/
@@ -339,36 +388,34 @@ body {
     font-size: 15px;
     margin-left: 10px; } }
 
-@media screen and (max-width: 1024px) {
-  .tituloprincipal {
-    font-size: 50px; }
-  section {
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center; }
-  article p {
-    width: 265px;
-    font-size: 25px; }
-  .abajo {
-    font-size: 25px; }
-  .arriba {
-    font-size: 25px; }
-  .aside_texto {
-    font-size: 35px; }
-  .menu_link2 {
-    font-size: 25px;
-    margin-left: 10px;
-    margin-right: 10px; }
-  .copyright {
-    font-size: 25px;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    margin-right: 10px; }
-  .logo2 {
-    width: 200px;
-    height: 150px;
-    margin-top: 40px;
-    margin-left: 20px; }
+@media screen and (min-width: 1024px) {
+  .cambiar_img1 {
+    height: 400px;
+    width: 300px;
+    background-size: cover; }
+    .cambiar_img1:hover {
+      height: 400px;
+      width: 300px;
+      background-size: cover;
+      transition-duration: 1s; }
+  .cambiar_img2 {
+    height: 400px;
+    width: 300px;
+    background-size: cover; }
+    .cambiar_img2:hover {
+      height: 400px;
+      width: 300px;
+      background-size: cover;
+      transition-duration: 1s; }
+  .cambiar_img3 {
+    height: 400px;
+    width: 300px;
+    background-size: cover; }
+    .cambiar_img3:hover {
+      height: 400px;
+      width: 300px;
+      background-size: cover;
+      transition-duration: 1s; }
   /*Inmuebles*/
   .imagenes_casas {
     width: 450px; }

@@ -1,0 +1,14 @@
+
+@mixin estilo ($height, $width, $background-size) {
+    height: $height;
+    width: $width;
+    background-size: $background-size;
+}
+
+@mixin estilo-hover ($height, $width, $background-size,$transition-duration) {
+    height: $height;
+    width: $width;
+    background-size: $background-size;
+    transition-duration: $transition-duration; 
+}
+

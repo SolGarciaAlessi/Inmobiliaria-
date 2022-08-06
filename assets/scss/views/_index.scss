@@ -31,7 +31,7 @@ article {
 }
 
 .cambiar_img1 {
-    background-image: url(../img/img1exteriorcomprim.jpm);
+    background-image: url(../img/img1exteriorcomprim.jpg);
 }
 
 .cambiar_img1:hover {
@@ -52,6 +52,30 @@ article {
 
 .cambiar_img3:hover {
     background-image: url(../img/img3interior.jpg);
+}
+
+.cambiar_img1 {
+    @include estilo(400px, 300px, cover);
+
+    &:hover {
+        @include estilo-hover(400px, 300px, cover, 1s)
+    }
+}
+
+.cambiar_img2 {
+    @include estilo(400px, 300px, cover);
+
+    &:hover{
+        @include estilo-hover(400px, 300px, cover, 1s);
+    }
+}
+
+.cambiar_img3 {
+    @include estilo(400px, 300px, cover);
+
+    &:hover{
+        @include estilo-hover(400px, 300px, cover, 1s)
+    }
 }
 
 article p {
