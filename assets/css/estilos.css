@@ -410,3 +410,17 @@ body {
   .table {
     width: auto;
     font-size: 15px; } }
+
+@media screen and (max-width: 380px) {
+  .articulo_1 p {
+    font-size: 15px; }
+  .nombre.box {
+    font-size: 13px; }
+  .nombre {
+    font-size: 13px; }
+  .nombre2 {
+    font-size: 13px; }
+  .divclass {
+    font-size: 13px; }
+  .table {
+    font-size: 15px; } }

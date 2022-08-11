@@ -249,6 +249,33 @@
     }
 }
 
+@media screen and (max-width:380px) {
 
+    // INICIO
+    .articulo_1 {
+        & p {
+            font-size: 15px;
+
+        }
+    }
+    // CONTACTO
+    .nombre.box {
+        font-size: 13px;
+    }
+
+    .nombre {
+        font-size: 13px;
+    }
+
+    .nombre2 {
+        font-size: 13px;
+    }
+    .divclass{
+        font-size: 13px;
+    }
+    .table{
+        font-size: 15px;
+    }
+}
 
 
