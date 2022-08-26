@@ -426,4 +426,7 @@ body {
     font-size: 15px; }
   .table {
     width: auto;
-    font-size: 13px; } }
+    font-size: 13px; }
+  .imagenes_casas {
+    width: 290px;
+    margin: 5px; } }
