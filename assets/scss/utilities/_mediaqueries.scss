@@ -249,7 +249,7 @@
     }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:320px) {
 
     // INICIO
     .articulo_1 {
@@ -275,6 +275,12 @@
     }
     .table{
         font-size: 15px;
+    }
+
+    // VALORES
+    .table {
+        width: auto;
+        font-size: 13px;
     }
 }
 

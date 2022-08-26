@@ -411,7 +411,7 @@ body {
     width: auto;
     font-size: 15px; } }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
   .articulo_1 p {
     font-size: 15px; }
   .nombre.box {
@@ -423,4 +423,7 @@ body {
   .divclass {
     font-size: 13px; }
   .table {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .table {
+    width: auto;
+    font-size: 13px; } }
